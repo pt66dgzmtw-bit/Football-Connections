@@ -228,7 +228,7 @@
       game.mistakes++;
       nodes.forEach(function (n) { n.classList.remove("bounce"); void n.offsetWidth; n.classList.add("wrong"); });
       renderLives();
-      say(best === 3 ? "One away…" : (best === 2 ? "Two off" : "Not this time"), "miss");
+      say(best === 3 ? "One away…" : "Not quite", "miss");
       setTimeout(function () {
         nodes.forEach(function (n) { n.classList.remove("wrong"); });
         game.busy = false;

@@ -265,6 +265,76 @@ const PUZZLES = [
       { tier: 3, name: "National stadiums", items: ["WEMBLEY", "HAMPDEN", "MARACANÃ", "AZTECA"] }
     ],
     traps: []
+  },
+  {
+    id: 26, name: "Selhurst Park", theme: "Crystal Palace",
+    groups: [
+      { tier: 0, name: "Palace academy graduates", items: ["ZAHA", "WAN-BISSAKA", "CLYNE", "MOSES"] },
+      { tier: 1, name: "Palace's 1990 FA Cup final side", items: ["IAN WRIGHT", "MARK BRIGHT", "GEOFF THOMAS", "MARTYN"] },
+      { tier: 2, name: "Palace's 2016 FA Cup final side", items: ["HENNESSEY", "DANN", "BOLASIE", "PUNCHEON"] },
+      { tier: 3, name: "Played for AND managed Palace", items: ["PARDEW", "FREEDMAN", "VENABLES", "LOMBARDO"] }
+    ],
+    traps: [["PARDEW", 1], ["ZAHA", 2]]
+  },
+  {
+    id: 27, name: "Lionesses", theme: "Women's football",
+    groups: [
+      { tier: 0, name: "England's Euro 2022 winners", items: ["WILLIAMSON", "MEAD", "TOONE", "KELLY"] },
+      { tier: 1, name: "USWNT greats", items: ["WAMBACH", "MIA HAMM", "LLOYD", "ALEX MORGAN"] },
+      { tier: 2, name: "Managed England Women", items: ["HOPE POWELL", "SAMPSON", "NEVILLE", "WIEGMAN"] },
+      { tier: 3, name: "Ballon d'Or Féminin winners", items: ["HEGERBERG", "PUTELLAS", "BONMATÍ", "RAPINOE"] }
+    ],
+    traps: [["RAPINOE", 1]]
+  },
+  {
+    id: 28, name: "The North East", theme: "North East football",
+    groups: [
+      { tier: 0, name: "Newcastle number nines", items: ["SHEARER", "MILBURN", "LES FERDINAND", "MACDONALD"] },
+      { tier: 1, name: "Sunderland favourites", items: ["KEVIN PHILLIPS", "NIALL QUINN", "ARCA", "DEFOE"] },
+      { tier: 2, name: "Middlesbrough stars", items: ["JUNINHO", "RAVANELLI", "VIDUKA", "DOWNING"] },
+      { tier: 3, name: "Played for two North East clubs", items: ["LEE CLARK", "CHOPRA", "WOODGATE", "BRAMBLE"] }
+    ],
+    traps: [["WOODGATE", 2], ["ARCA", 3]]
+  },
+  {
+    id: 29, name: "The Armband", theme: "Captains",
+    groups: [
+      { tier: 0, name: "Premier League title-winning captains", items: ["TONY ADAMS", "ROY KEANE", "KOMPANY", "WES MORGAN"] },
+      { tier: 1, name: "World Cup winning captains", items: ["CAFU", "CANNAVARO", "LAHM", "DESCHAMPS"] },
+      { tier: 2, name: "Barcelona club captains", items: ["XAVI", "INIESTA", "BUSQUETS", "PUYOL"] },
+      { tier: 3, name: "Lifted the Champions League as captain", items: ["GERRARD", "RAMOS", "MALDINI", "TERRY"] }
+    ],
+    traps: [["TERRY", 0], ["PUYOL", 3]]
+  },
+  {
+    id: 30, name: "The Dugout", theme: "Great managers",
+    groups: [
+      { tier: 0, name: "Won the Premier League", items: ["FERGUSON", "RANIERI", "CONTE", "MANCINI"] },
+      { tier: 1, name: "Won the Champions League", items: ["HEYNCKES", "DEL BOSQUE", "ZIDANE", "TUCHEL"] },
+      { tier: 2, name: "Won the World Cup as manager", items: ["SCALONI", "LÖW", "JACQUET", "SCOLARI"] },
+      { tier: 3, name: "Managed in England and Spain", items: ["MOURINHO", "PELLEGRINI", "BENÍTEZ", "EMERY"] }
+    ],
+    traps: [["MOURINHO", 0], ["BENÍTEZ", 1], ["DEL BOSQUE", 2]]
+  },
+  {
+    id: 31, name: "The 2026/27 Map", theme: "Premier League 2026/27",
+    groups: [
+      { tier: 0, name: "London clubs", items: ["ARSENAL", "CHELSEA", "FULHAM", "BRENTFORD"] },
+      { tier: 1, name: "North West clubs", items: ["LIVERPOOL", "EVERTON", "MAN CITY", "MAN UNITED"] },
+      { tier: 2, name: "North East & Yorkshire", items: ["NEWCASTLE", "SUNDERLAND", "LEEDS", "HULL CITY"] },
+      { tier: 3, name: "The Midlands & East", items: ["ASTON VILLA", "COVENTRY", "FOREST", "IPSWICH"] }
+    ],
+    traps: []
+  },
+  {
+    id: 32, name: "Twenty Clubs", theme: "Premier League 2026/27",
+    groups: [
+      { tier: 0, name: "Promoted in the last two seasons", items: ["LEEDS", "SUNDERLAND", "COVENTRY", "IPSWICH"] },
+      { tier: 1, name: "London clubs", items: ["SPURS", "PALACE", "FULHAM", "CHELSEA"] },
+      { tier: 2, name: "Sponsor-named stadiums", items: ["BOURNEMOUTH", "BRIGHTON", "BRENTFORD", "ARSENAL"] },
+      { tier: 3, name: "Won the European Cup", items: ["LIVERPOOL", "FOREST", "ASTON VILLA", "MAN UNITED"] }
+    ],
+    traps: [["ARSENAL", 1], ["BRENTFORD", 1], ["CHELSEA", 3], ["COVENTRY", 2]]
   }
 ];
 
